@@ -165,3 +165,30 @@ span{
         -0.5px 0.5px 0px white,
         0.5px 0.5px 0px white;
 }
+
+.bottomSection, .card, .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomSection{
+    align-content: center;
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.card{
+    align-self: center;
+    align-items: center;
+    width: 60%;
+    height: 50%;
+    background-color:white;
+    border-radius: 15px;
+}
+.inputs{
+    width: 80%;
+    gap: 10px;
+    
+}
