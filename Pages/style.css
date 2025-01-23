@@ -1,6 +1,10 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(228, 230, 232);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+
 }
 .topsection{
     width: 100vw;
@@ -173,7 +177,7 @@ span{
 
 .bottomSection{
     align-content: center;
-    padding: 10px;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
     background-color: aliceblue;
@@ -181,10 +185,9 @@ span{
 
 .card{
     align-self: center;
-    align-items: center;
     padding: 50px;
-    width: 60%;
-    height: 50%;
+    width: 50%;
+    height: fit-content;
     background-color:white;
     border-radius: 15px;
     overflow: hidden;
@@ -198,7 +201,7 @@ span{
     
     width: 100%;
     height: 100%;
-    display: grid;
+    align-items: center;
    
 }
 h3{
@@ -230,4 +233,14 @@ h3{
     color: white;
     font-weight:400;
     border: none;
+}
+
+label{
+    font-size: medium;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+label:hover{
+    text-decoration: underline 2px;
 }
