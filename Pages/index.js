@@ -8,4 +8,3 @@ sportswelcome.addEventListener('click', function() {
     document.getElementById("followers").textContent = followersCount + 1 + ' followers';
 
 }); 
-
