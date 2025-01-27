@@ -19,6 +19,9 @@ document.getElementById("submitbutton").onclick = function () {
     document.getElementById("submittedage").textContent = Age;
     document.getElementById("useremail").textContent = Email;
 
-    window.alert(`Welcome to kapeesa ` + Username + ` You have registered successfully`);
-    window.alert(`You turn ${Age +1} years old on your next birthday`);
+    if (Age >= 18) {
+        window.alert(`Welcome to kapeesa ` + Username + ` You have registered successfully`);
+    } else {
+        window.alert(`Kapeesa is for adults! Come Back When you are older!!`)
+    }
 }

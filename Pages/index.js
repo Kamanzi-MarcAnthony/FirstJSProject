@@ -1,11 +1,18 @@
 let Count = 1;
-//window.alert('Welcome to the Sports Page!');
-document.getElementById("followers").textContent = Count + " followers";
+let followStatus = "Follow Team";
+let followingStatus = " Following";
+
+document.getElementById("followStatus").textContent = followStatus;
+
+const followers = document.getElementById("followers");
+
+    followers.textContent = Count + " followers";
 
 
 document.getElementById("sportsButton").onclick = function (){
-    document.getElementById("followers").textContent = Count++ + " followers" ;
-
+    Count ++;
+    followers.textContent = Count + " followers" ;
+    document.getElementById("followStatus").textContent = followingStatus;
     console.log(Count);
 }
 
