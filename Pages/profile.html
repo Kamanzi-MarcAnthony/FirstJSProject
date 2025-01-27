@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- top section -->
+
+    <div class="topsection">
+        <div class="logo">
+            <H1>Kapeesa</H1>
+        </div>
+        <div class="Navitems">
+            <a href="./Home.html">Home</a>
+            <a href="#">Gaming</a>
+            <a href="#">Network</a>
+            <a href="./index.html">Sports</a>
+            <a href="#">Profile</a>
+        </div>
+    </div>
+
+<!-- bottom section -->
+    <div class="bottomSection">
+        
+        <div class="card">
+                <div class="innerformcontent">
+            <!-- user info summary -->
+                <div class="Userinfo">
+                    <h3 id="username" class="username">Username:
+                        <label id="user" for="username"></label>
+                    </h3>
+                    <h3 id="expededage" class="age"> Age:
+                        <label id="submittedage" for="age"></label>
+                    </h3>
+                    <h3 id="email" class="email"> Email:
+                        <label id="useremail"  for="email"></label>
+                    </h3>
+                </div>
+            <!-- user inputs -->
+                <div class="inputs">
+
+                    <div>
+                        <input id="emailinput" class="emailinput" type="email" placeholder="Enter Email">
+                    </div>
+
+                    <div>
+                        <input id="age" class="emailinput" type="number" placeholder="Age">
+                    </div>
+
+                    <div>
+                        <input id="usernameinput" class="emailinput" type="text" placeholder="Username">
+                    </div>
+
+                    <div >
+                        <button id="submitbutton" class="submitbutton"> Create Profile</button>
+                    </div>
+                
+                </div>
+            </div>
+
+            <!-- welcome message -->
+        </div>
+
+        <div id="welcome">
+            <p id="WelcomeMessage"></p>
+        </div>
+    </div>
+        
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
